@@ -3,3 +3,4 @@ __pycache__
 .pytest_cache
 comments.py
 .mypy_cache
+/venv

@@ -1,14 +1,15 @@
 import sys
-from email_validator import validate_email, EmailNotValidError
 import requests
 import os
-from dotenv import load_dotenv
-import openai
 import json
 import smtplib
 from email.mime.text import MIMEText
-from jinja2 import Environment, FileSystemLoader
 import logging
+
+import openai
+from dotenv import load_dotenv
+from email_validator import validate_email, EmailNotValidError
+from jinja2 import Environment, FileSystemLoader
 
 
 # Since this is a simple application I use sys.exit() with every error
