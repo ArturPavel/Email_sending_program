@@ -14,6 +14,9 @@ To set up this project you will need three api's:
 * Alphavantage api (free): https://www.alphavantage.co/
 * openai api (paid): https://platform.openai.com/settings/profile/user
 
+> [!IMPORTANT]
+> Make sure to pip install -r requirements.txt
+
 You will also have to set up your gmail account by enabling 2-step verification and creating a 3rd party app password:
 1) Enable 2-Step Verification (if not already enabled) 
     - Go to: https://myaccount.google.com/security
